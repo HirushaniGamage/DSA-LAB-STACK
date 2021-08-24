@@ -15,8 +15,9 @@ public class StackX {
 	public void push (double j) {
 		if (top == maxSize -1) 
 			System.out.println("Stack os full !");
-		else
+		else {
 			stackArray[++ top] = j;
+		}
 	}
 	
 	// pop method (delete the values of the stack)
